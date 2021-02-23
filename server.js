@@ -17,9 +17,8 @@ response.json(data);
 
 app.get('/album/:id', async (req, res) => {
   const {id} = req.params
-const {data} = await axios.get(`https://itunes.apple.com/lookup?id=${id}&entity=song`)
-res.json(data)
-
+  const {data} = await axios.get(`https://itunes.apple.com/lookup?id=${id}&entity=song`)
+  res.json(data)
 })
 // END DEMO
 

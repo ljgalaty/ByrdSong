@@ -1,12 +1,12 @@
 import React from 'react';
 import { Form } from 'react-bootstrap';
-import './searchForm.css';
+import './SearchForm.css';
 
 // Finish Design
 
 const SearchForm = ({ handleSubmitProp, setArtist }) => {
   return (
-    <Form onSubmit={handleSubmitProp} style={{ margin: '2rem' }}>
+    <Form onSubmit={handleSubmitProp} className="search-form" style={{ margin: '2rem' }}>
       <div className="searchContainer">
         <input
           type="text"

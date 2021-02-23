@@ -1,0 +1,83 @@
+/* .nav {
+    margin: 0;
+    padding: 0rem;
+    z-index: 1;
+    height: 15px;
+    justify-content: center;
+    background-color: #202020;
+    border-bottom: solid #202020e9;
+  }
+  .navtext:hover {
+  border: 1px;
+  color: whitesmoke; */
+    /* font-size: 20px; */
+  /* box-shadow: 0 0 30px 0 crimson; */
+  /* }
+  
+  .navtext {
+    font-size: 20px;
+  }
+  .navitem {
+    display: inline-block;
+    background-color: #202020;
+    margin: 0px;
+    height: 15px;
+  }
+  
+  .navlink {
+    margin-left: 130px;
+    margin-right:130px;
+    height: 15px;
+    list-style-type: none;
+    font-size: 20px;
+    color: crimson;
+    background-color: #202020;
+  }
+  
+  .navlink:hover {
+    color: whitesmoke;
+    cursor: pointer;
+    transform: scale(1.1);
+    transition: all 1.5s;
+  } */
+
+  .topnav {
+    overflow: hidden;
+    background-color: #333;
+    position: relative;
+  }
+  
+  /* Hide the links inside the navigation menu (except for logo/home) */
+  .topnav #myLinks {
+    display: none;
+  }
+  
+  /* Style navigation menu links */
+  .topnav a {
+    color: white;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    display: block;
+  }
+  
+  /* Style the hamburger menu */
+  .topnav a.icon {
+    background: black;
+    display: block;
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+  
+  /* Add a grey background color on mouse-over */
+  .topnav a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+  
+  /* Style the active link (or home/logo) */
+  .active {
+    background-color: #4CAF50;
+    color: white;
+  }

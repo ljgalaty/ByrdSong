@@ -1,50 +1,9 @@
-/* 
-  
-  .welcome-page-searchbar {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    padding: 10px;
-    opacity: 0.7;
-    
-  } 
-
-.welcome-input:hover {
-    border-radius: 50px;
-    border-bottom: 3px solid #fa233b;
-    border-top: 3px solid #fa233b;
-    border-color: #fa233b;
-    background-color: crimson;
-    width: 500px;
-    height: 50px;
-    
-    /* z-index: 5; */
-
-/* }    */
-
-/* search bar adjustments */
-
-/* .welcome-input {
-    box-shadow: 0 0 25px 0 crimson,
-    0 20px 25px 0 rgba(0, 0, 0, 0.2);
-    border-radius: none;
-    background:crimson;
-    height: 70px;
-    width: 90px;
-    padding-right: 60px;
-    font-size: 50px;
-    font-family: "Helvetica", sans-serif;
-    cursor: pointer;
-    transition: 1s;
-    text-indent: 20px;
-    box-shadow: 0 0 25px 0 crimson,
-                    0 20px 25px 0 rgba(0, 0, 0, 0.2);
-                    
-   
-}  */
-
 @import url('https://fonts.googleapis.com/css?family=Inconsolata:700');
+
+/* .search-form {
+  margin-top: 5rem;
+  margin: 2 rem;
+} */
 
 .searchContainer {
   position: absolute;
@@ -57,6 +16,7 @@
   height: 45px;
   background-color: transparent;
 }
+
 .searchContainer .search {
   position: absolute;
   margin: auto;

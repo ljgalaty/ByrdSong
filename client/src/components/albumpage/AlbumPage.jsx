@@ -4,8 +4,9 @@ import axios from 'axios';
 import { BiPlayCircle } from 'react-icons/bi';
 import Aos from 'aos';
 import 'aos/dist/aos.css';
+import './AlbumPage.css';
 
-const AlbumPage = ({ handleChange }) => {
+const AlbumPage = () => {
   const [album, setAlbum] = useState([]);
   const [play, setPlay] = useState(false);
 

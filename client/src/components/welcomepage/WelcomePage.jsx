@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
-import SearchForm from './SearchForm';
+import SearchForm from './components/SearchForm';
 import { Container } from 'react-bootstrap';
+import './WelcomePage.css';
 
 /// Finish Layout + Design. Just have the search bar in the middle of the page.
 /// Have the search bar redirect to the Album Card Component.
@@ -14,15 +15,17 @@ const WelcomePage = ({ history }) => {
 
   return (
     <div className="main">
-      <SearchForm handleSubmitProp={handleSubmit} setArtist={setArtist} />
-
+      
+      <SearchForm handleSubmitProp={handleSubmit} setArtist={setArtist} className="search-form"/>
       <Container
         style={{
           display: 'flex',
           justifyContent: 'center',
           alignItems: 'center'
         }}
-      ></Container>
+      >
+        
+      </Container>
     </div>
   );
 };

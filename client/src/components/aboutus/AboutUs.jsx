@@ -1,9 +1,10 @@
 import React from 'react';
 import Card from 'react-bootstrap/Card';
-import Luis from './images/LuisPerez.jpeg';
-import Laurel from './images/LaurelGalaty.jpeg';
-import Marlon from './images/IMG_9005.jpeg';
-import Eugene from './images/EugeneWashington.jpg';
+import Luis from './assets/LuisPerez.jpeg';
+import Laurel from './assets/LaurelGalaty.jpeg';
+import Marlon from './assets/IMG_9005.jpeg';
+import Eugene from './assets/EugeneWashington.jpg';
+import "./AboutUs.css"
 
 // Have the basic layout of the page. Which includes:
 // 1.our values which we would get from Wyncode.

@@ -1,8 +1,9 @@
 import React, { useState, useEffect } from 'react';
-import AlbumCard from './AlbumCard';
+import AlbumCard from './components/AlbumCard';
 import { useParams } from 'react-router-dom';
 import { Container } from 'react-bootstrap';
 import axios from 'axios';
+import './AlbumCardPage.css';
 
 function AlbumCardPage() {
   const [albums, setAlbums] = useState([]);
